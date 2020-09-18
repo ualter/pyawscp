@@ -1,6 +1,236 @@
+@font-face {
+    font-family: 'nunitoblack';
+    src: url('fonts/nunito-black-webfont.woff2') format('woff2'),
+         url('fonts/nunito-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'nunitoblack_italic';
+    src: url('fonts/nunito-blackitalic-webfont.woff2') format('woff2'),
+         url('fonts/nunito-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'nunitobold';
+    src: url('fonts/nunito-bold-webfont.woff2') format('woff2'),
+         url('fonts/nunito-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'nunitobold_italic';
+    src: url('fonts/nunito-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/nunito-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'nunitoextrabold';
+    src: url('fonts/nunito-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/nunito-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'nunitoextrabold_italic';
+    src: url('fonts/nunito-extrabolditalic-webfont.woff2') format('woff2'),
+         url('fonts/nunito-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'nunitoextralight';
+    src: url('fonts/nunito-extralight-webfont.woff2') format('woff2'),
+         url('fonts/nunito-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'nunitoextralight_italic';
+    src: url('fonts/nunito-extralightitalic-webfont.woff2') format('woff2'),
+         url('fonts/nunito-extralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'nunitoitalic';
+    src: url('fonts/nunito-italic-webfont.woff2') format('woff2'),
+         url('fonts/nunito-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'nunitolight';
+    src: url('fonts/nunito-light-webfont.woff2') format('woff2'),
+         url('fonts/nunito-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'nunitolight_italic';
+    src: url('fonts/nunito-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/nunito-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'nunitoregular';
+    src: url('fonts/nunito-regular-webfont.woff2') format('woff2'),
+         url('fonts/nunito-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'titillium_webblack';
+    src: url('fonts/titilliumweb-black-webfont.woff2') format('woff2'),
+         url('fonts/titilliumweb-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'titillium_webbold';
+    src: url('fonts/titilliumweb-bold-webfont.woff2') format('woff2'),
+         url('fonts/titilliumweb-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'titillium_webbold_italic';
+    src: url('fonts/titilliumweb-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/titilliumweb-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'titillium_webitalic';
+    src: url('fonts/titilliumweb-italic-webfont.woff2') format('woff2'),
+         url('fonts/titilliumweb-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'titillium_webregular';
+    src: url('fonts/titilliumweb-regular-webfont.woff2') format('woff2'),
+         url('fonts/titilliumweb-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'titillium_websemibold';
+    src: url('fonts/titilliumweb-semibold-webfont.woff2') format('woff2'),
+         url('fonts/titilliumweb-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'titillium_websemibold_italic';
+    src: url('fonts/titilliumweb-semibolditalic-webfont.woff2') format('woff2'),
+         url('fonts/titilliumweb-semibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cairoregular';
+    src: url('fonts/cairo-regular-webfont.woff2') format('woff2'),
+         url('fonts/cairo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntubold';
+    src: url('fonts/ubuntu-bold-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ubuntubold_italic';
+    src: url('fonts/ubuntu-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ubuntuitalic';
+    src: url('fonts/ubuntu-italic-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('fonts/ubuntu-light-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ubuntulight_italic';
+    src: url('fonts/ubuntu-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ubuntumedium';
+    src: url('fonts/ubuntu-medium-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ubuntumedium_italic';
+    src: url('fonts/ubuntu-mediumitalic-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('fonts/ubuntu-regular-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 body {
     background-image: url(images/bkg.png);
-    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    /*font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;*/
+    font-family: "titillium_webregular";
+    /*font-family: "cairoregular";*/
+    /*font-family: "ubunturegular";*/
+    /*font-family: "nunitoregular";*/
+    font-size: 20px;
     color: rgb(200,200,200);
     margin-left: 50px;
     margin-right: 50px;
@@ -28,7 +258,8 @@ h2 {
 }
 h3 {
     color: #666; 
-    font-size: x-large;
+    font-size: 26px;
+    font-family: "nunitoblack";
 }
 
 a {
@@ -38,16 +269,22 @@ a {
 a.menu {
     color: rgb(195,195,195);
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
 }
 p {
     line-height: 1.5;
+    font-size: 20px;
 }
 p.subtitle {
   line-height: 1.5;
   color: #666; 
   font-weight: bolder;
-  font-size: 17px;
+  font-size: 24px;
+  font-family: "nunitoblack";
+}
+
+li {
+    font-size: 20px;
 }
 
 font.bullet {
@@ -65,7 +302,8 @@ span.subtitle {
     line-height: 1.6;
     color: #666; 
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 24px;
+    font-family: "nunitoblack";
 }
 
 img.thumb {
