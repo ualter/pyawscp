@@ -148,6 +148,37 @@
                                         <font color="#be9b43"><i>[TAB]</i></font></span><span style="color:gray">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Auto complete</span><br>
                                     <span><font color="#8ec5c5">(</font><font color="#b3b14a">aws</font>-<font color="#1b7fa4">shell</font>-<font color="#01479b">cockpit</font><font color="#8ec5c5">)</font>⛅:~ 
                                         <font color="#be9b43"><i>[Arrow-Up]</i></font></span><span style="color:gray">&nbsp;&nbsp;&nbsp;# Command history</span><br>    
+                                    <span style="color:gray"></span><br>
+                                    <span style="color:gray"></span><br>
+                                    <span style="color:gray"></span><br>
+                                    <span style="color:gray">######################################################################</span><br>
+                                    <span style="color:gray"># <i>More things...</i></span><br>
+                                    <span style="color:gray"># Almost every function works with <i>"generics"</i> arguments that</span><br>
+                                    <span style="color:gray"># makes possible some customizations at the result:</span><br>
+                                    <span style="color:gray">######################################################################</span><br>
+
+                                    <span style="color:gray"># <span style="color:lightblue"><i>desc</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- List in descending order (use the first column as default)</span><br>
+                                    <span style="color:gray"># <span style="color:lightblue"><i>sort3</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Sort the table by a specific column number</span><br>
+                                    <span style="color:gray"># <span style="color:lightblue"><i>showtags</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- When applicable, show the tags of the resource</span><br>
+                                    <span style="color:gray"># <span style="color:lightblue"><i>verbose</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Before the result, shows the same content (or more) in JSON</span><br>
+                                    <span style="color:gray"># <span style="color:lightblue"><i>save</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Save the same result's content in a external JSON file (results folder)</span><br>
+                                    <span style="color:gray"># <span style="color:lightblue"><i>| {value}</i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Highligth the lines with the {value} content</span><br>
+                                    <span style="color:gray"># <span style="color:lightblue"><i>| grep {value}</i></span>&nbsp;- Filter the lines with the {value} content</span><br>
+                                    <span style="color:gray"># Examples:</span><br>
+                                    <span><font color="#8ec5c5">(</font><font color="#b3b14a">aws</font>-<font color="#1b7fa4">shell</font>-<font color="#01479b">cockpit</font><font color="#8ec5c5">)</font>⛅:~ 
+                                        <font color="#be9b43"><i>listEc2 sort4,desc</i></font></span><span style="color:gray"></span><br>
+                                    <span><font color="#8ec5c5">(</font><font color="#b3b14a">aws</font>-<font color="#1b7fa4">shell</font>-<font color="#01479b">cockpit</font><font color="#8ec5c5">)</font>⛅:~ 
+                                        <font color="#be9b43"><i>listEc2 | grep uat</i></font></span><span style="color:gray"></span><br>
+                                    <span><font color="#8ec5c5">(</font><font color="#b3b14a">aws</font>-<font color="#1b7fa4">shell</font>-<font color="#01479b">cockpit</font><font color="#8ec5c5">)</font>⛅:~ 
+                                        <font color="#be9b43"><i>listTargetGroups verbose</i></font></span><span style="color:gray"></span><br>
+                                    <span><font color="#8ec5c5">(</font><font color="#b3b14a">aws</font>-<font color="#1b7fa4">shell</font>-<font color="#01479b">cockpit</font><font color="#8ec5c5">)</font>⛅:~ 
+                                        <font color="#be9b43"><i>listBucketsS3 save,verbose</i></font></span><span style="color:gray"></span><br>
+                                    <span style="color:gray"></span><br>
+                                    <span style="color:gray"></span><br>
+                                    <span style="color:gray"># <b>And...</b><br></span>
+                                    <span style="color:gray"># After every executed command, the result is also <span style="color:lightblue">copied</span> to your <span style="color:lightblue">Clipboard!</span><br>
+                                    <span style="color:gray"># At <span style="color:lightblue">navigator</span>, use the mouse-right-button to opened permanently the window's popup info</span><br>
+                                    <span style="color:gray"></span><br>
                                     <span style="color:gray"></span><br>    
                                 </div>
                             </span>
