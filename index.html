@@ -1,6 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
         <script>
             function highMenu(obj,sp) {
                 obj.style.color = "orange";
@@ -15,18 +16,19 @@
     </head>
     <body>
         <header>
-            <h1>./ Python AWS Shell Cockpit</h1>
-            <h2 style="margin-top: -10px;">$:~ pyawscp</h2>
+            <h1>./ Python AWS Shell Cockpit <i class="fas fa-toolbox"></i></h1>
+            <h2 style="margin-top: -10px;">$:~ pyawscp</i></h2>
         </header>
         <table border="0">
             <tr valign="top">
                 <td>
                     <p style="line-height: 2.3;margin-top: -15px;margin-left: 10px;width:200px;">
-                        <a class="menu" href="#overview"     onmouseover="javascript:highMenu(this,'m0');" onmouseout="javascript:backToNormalMenu(this,'m0');"><span id="m0" style="display:none;"> / /</span> Overview</a><br>
-                        <a class="menu" href="#quickstart"   onmouseover="javascript:highMenu(this,'m3');" onmouseout="javascript:backToNormalMenu(this,'m3');"><span id="m3" style="display:none;"> / / </span> Quick Start</a><br>
-                        <a class="menu" href="#docs"         onmouseover="javascript:highMenu(this,'m5');" onmouseout="javascript:backToNormalMenu(this,'m5');"><span id="m5" style="display:none;"> / / </span> Docs</a><br>
-                        <a class="menu" href="#notes"        onmouseover="javascript:highMenu(this,'m6');" onmouseout="javascript:backToNormalMenu(this,'m6');"><span id="m6" style="display:none;"> / / </span> Notes</a><br>
-                        <a class="menu" href="#contact"      onmouseover="javascript:highMenu(this,'m7');" onmouseout="javascript:backToNormalMenu(this,'m7');"><span id="m7" style="display:none;"> / / </span> Contact</a><br>
+                        <a class="menu" href="#overview"     onmouseover="javascript:highMenu(this,'m0');" onmouseout="javascript:backToNormalMenu(this,'m0');"><span id="m0" style="display:none;"><i class="fa fa-location-arrow"></i>&nbsp;</span> Overview</a><br>
+                        <a class="menu" href="#quickstart"   onmouseover="javascript:highMenu(this,'m3');" onmouseout="javascript:backToNormalMenu(this,'m3');"><span id="m3" style="display:none;"><i class="fa fa-location-arrow"></i>&nbsp;</span> Quick Start</a><br>
+                        <a class="menu" href="#docs"         onmouseover="javascript:highMenu(this,'m5');" onmouseout="javascript:backToNormalMenu(this,'m5');"><span id="m5" style="display:none;"><i class="fa fa-location-arrow"></i>&nbsp;</span> Docs</a><br>
+                        <a class="menu" href="#versions"     onmouseover="javascript:highMenu(this,'m6');" onmouseout="javascript:backToNormalMenu(this,'m6');"><span id="m6" style="display:none;"><i class="fa fa-location-arrow"></i>&nbsp;</span> Versions</a><br>
+                        <a class="menu" href="#notes"        onmouseover="javascript:highMenu(this,'m7');" onmouseout="javascript:backToNormalMenu(this,'m7');"><span id="m7" style="display:none;"><i class="fa fa-location-arrow"></i>&nbsp;</span> Notes</a><br>
+                        <a class="menu" href="#contact"      onmouseover="javascript:highMenu(this,'m8');" onmouseout="javascript:backToNormalMenu(this,'m8');"><span id="m8" style="display:none;"><i class="fa fa-location-arrow"></i>&nbsp;</span> Contact</a><br>
                     </p>
                 </td>
                 <td>
@@ -34,7 +36,7 @@
 
                         <span id="overview"/>
                         <p align="justify">
-                         A simple <font style="font-family:consolas">"Python Shell"</font> environment that you can use to "talk" with your AWS account...
+                         A simple <font style="font-family:consolas">"Python Shell"</font> environment that you can use to "talk" with your&nbsp; <span style="margin:0px 5px 0px 5px;font-size:36px;"><i class="fab fa-aws"></span></i> &nbsp;account...
                         </p>
                         
                         <p align="justify">
@@ -76,7 +78,7 @@
                         <br>
 
                         <header>
-                            <h3 id="quickstart">Quick Start</h3>
+                            <h3 id="quickstart"><i class="fa fa-mouse-pointer"></i> Quick Start</h3>
                         </header>
                         <p align="justify">
                             <font class="bullet">--> </font><span class="subtitle">Install & Run...</span><br>
@@ -112,7 +114,7 @@
                         <br>
 
                         <header>
-                            <h3  id="docs">Docs</h3>
+                            <h3  id="docs"><i class="fa fa-mouse-pointer"></i> Docs</h3>
                         </header>
                         <p align="justify">
                             All the documentation is available inside the own PyAwsCp Shell environment, check it out:<br><br>
@@ -185,8 +187,27 @@
                         </span>
                         <br><br>
 
+                        <header>
+                            <h3  id="versions"><i class="fa fa-mouse-pointer"></i> Versions</h3>
+                        </header>
                         <p align="justify">
-                            <p class="subtitle">Configuration</p>
+                            <ul>
+                                <li><span class="version">v0.5.31</span> <span class="dataversion">(Sept 18, 2020)</span> - Bug fixing:
+                                    <ul>
+                                        <li><span style="color: rgb(255, 124, 124);"><i class="fa fa-bug"></i></span> <span class="describeversion">&nbsp;Navigator crashing when no Tags detected on Ec2 Instances.</span></li>
+                                    </ul>
+                                </li>
+                                <li><span class="version">v0.5.30</span> <span class="dataversion">(Sept 18, 2020)</span> - First version released: 
+                                    <ul>
+                                        <li><i class="fa fa-angle-double-right"></i><span class="describeversion">&nbsp;&nbsp;Still lot of things for to do, but let's share it anyway. There are 17 functions available.</span></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </p>
+                        <br>
+
+                        <p align="justify">
+                            <p class="subtitle"><i class="fa fa-mouse-pointer"></i> Configuration</p>
                         </p>
                         <p align="justify">
                             The PyAwsCp Shell offers some options to configure preferences on your environment, to check which one, use the command:<br><br>
@@ -224,7 +245,7 @@
                         <br><br>
 
                         <header>
-                            <h3  id="notes">Notes</h3>
+                            <h3  id="notes"><i class="fa fa-mouse-pointer"></i> Notes</h3>
                         </header>
                         <p align="justify">
                             <span class="arrow">###</span><span class="subtitle">&nbsp;&nbsp;What is this about?</span><br><span>
@@ -291,11 +312,11 @@
                         <br><br>
 
                         <header>
-                            <h3  id="contact">Contact</h3>
+                            <h3  id="contact"><i class="fa fa-mouse-pointer"></i> Contact</h3>
                         </header>
                         <p align="justify">
-                            <a href="http://linkedin.com/in/ualter" target="_blank">http://linkedin.com/in/ualter</a><br>
-                            <font style="color:goldenrod">ualter.junior@gmail.com</font>
+                            <i class="fab fa-linkedin"></i>&nbsp;&nbsp; <a href="http://linkedin.com/in/ualter" target="_blank">http://linkedin.com/in/ualter</a><br>
+                            <i class="fa fa-envelope"></i>&nbsp;&nbsp; <font style="color:goldenrod">ualter.junior@gmail.com</font>
                             <br><br><br><br>
                         </p>
                     </div>
